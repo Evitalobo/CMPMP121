@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 namespace FiveRabbitsDemo
 {
@@ -12,13 +14,17 @@ namespace FiveRabbitsDemo
         private Vector2 rotation = Vector2.zero;
         public float mouse = 10;
         private string[] states = new string[] { "Idle", "Run" };
-
+        public Door doorOpen;
         private Animator RabAnim;
+        public Text HappyText;
+        private int points = 0;
+     
+     
 
         // Use this for initialization
         void Start()
         {
-         
+            ParticleSystem Burst = GetComponent<ParticleSystem>();
             RabAnim = GetComponent<Animator>();
             RabAnim.Play("Idle");
         }
@@ -63,6 +69,31 @@ namespace FiveRabbitsDemo
 
         }
 
+
+        //Happiness sphere collider
+        void OnTriggerEnter(Collider other)
+        {
+            if (other != null)
+            {
+                //BurstMode();
+                points++;
+                HappyText.text = ("You have released the lever-the door is open");
+                Particles p = other.GetComponent<Particles>();
+                if (p != null)
+                {
+                    p.CheeseExplode();
+                }
+
+                Destroy(other.gameObject);
+
+                doorOpen.PointCollect();
+
+                if(points ==2){
+                    SceneManager.LoadScene(0);
+                }
+            }
+
+        }
 
             
             //Mouse rotation/follow

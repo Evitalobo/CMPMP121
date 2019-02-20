@@ -9,7 +9,7 @@ public class ParticleEffect : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        ParticleSystem Burst = other.GetComponent<Particles>();
+        ParticleSystem Burst = GetComponent<ParticleSystem>();
     }
 
     // Update is called once per frame

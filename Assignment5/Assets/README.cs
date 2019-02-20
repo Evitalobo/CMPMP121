@@ -1,15 +1,22 @@
-﻿/*/~`~`~/DISCO FEVER//~`~`~`~`
- * ============================
- * CONTROLS FOR ASSIGNMENT 3
- * ===========================
- * -Arrow keys control directional movement
+﻿/*----Evita Lobo----
  * 
- * -Cameras change with each room movement
+ * CMPM121-Unity Technologies
  * 
- * -Click on Flashlight to toggle Disco mode (Aka Flashlight)
+ * FeverDream- Open Main Menu Scene
  * 
- * -If you want to toggle cameras/you can use the buttons but room change switches it too 
+ * -----------------
  * 
+ *  Open the Main Menu Scene first and hit the play button
  * 
+ * Use the arrow keys to navigate and switch to camera 2 for best gameplay
+ * 
+ * Use the mouse to look around the room
+ * 
+ * Find the lever in the maze and once it is activated, the door will be opened. 
+ * 
+ * You must collect the cheese in order to win the game by unlocking the door.
+ * 
+ * Assets from Unity Store Used:
+ * I used the Rabbit CHaracter ANimation off of the Unity Store
  * 
  */
