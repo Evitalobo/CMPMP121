@@ -2,8 +2,8 @@ OSXUniversal
 PlayerPath?
 /Users/evita/CMPMP121/Assignment5/Game.app
 SceneListBegin?
-Assets/Scenes/MainMenu.unity
-Assets/Scenes/Assignment5.unity
+Assets/MainMenu.unity
+Assets/Assignment5.unity
 SceneListEnd?
 984dcc0ba3707b7691fbdca8ff508d28 Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
 01aa15e337e3a9c62f15153dfac6d589 Unity.TextMeshPro.dll:TMPro.TMP_Dropdown
@@ -179,6 +179,7 @@ a4f0a4f62100f1a4fb5cbe0e00dde83f Unity.TextMeshPro.dll:TMPro.TextMeshProUGUI
 8a874a8207a7664bdf44e61f28717254 Assembly-CSharp.dll:TMPro.Examples.SkewTextExample
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 fe2d355deb0ca31d59a0a7cf4d141fc3 Assembly-CSharp.dll:TMPro.Examples.Benchmark04
+bcd458a37083dabb7d32f783ba640d5e Assembly-CSharp.dll:.ParticleEffect
 4d16cfbaa8e821a2b370e80844a0e9bc Assembly-CSharp.dll:TMPro.Examples.TextMeshSpawner
 e63944317d2f5958e31963668bb29158 Assembly-CSharp.dll:TMPro.Examples.VertexShakeB
 5bb0c23ac2810973880e592724a69354 Assembly-CSharp.dll:TMPro.Examples.Benchmark02
