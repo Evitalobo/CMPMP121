@@ -738,6 +738,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 18
   mouse: 10
+--- !u!114 &268677941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 268677931}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad64ff029626f4a3bb833bab52752f09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doorAnim: {fileID: 469951450}
 --- !u!1 &273739524
 GameObject:
   m_ObjectHideFlags: 0
@@ -1154,6 +1167,7 @@ GameObject:
   - component: {fileID: 469951446}
   - component: {fileID: 469951451}
   - component: {fileID: 469951450}
+  - component: {fileID: 469951452}
   m_Layer: 0
   m_Name: door
   m_TagString: Untagged
@@ -1268,7 +1282,20 @@ Animation:
   m_WrapMode: 0
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
-  m_CullingType: 1
+  m_CullingType: 0
+--- !u!114 &469951452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 469951445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad64ff029626f4a3bb833bab52752f09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doorAnim: {fileID: 469951450}
 --- !u!1 &494394423
 GameObject:
   m_ObjectHideFlags: 0
@@ -11936,6 +11963,7 @@ GameObject:
   - component: {fileID: 1303706636}
   - component: {fileID: 1303706635}
   - component: {fileID: 1303706634}
+  - component: {fileID: 1303706638}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -12026,6 +12054,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1303706638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1303706633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad64ff029626f4a3bb833bab52752f09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doorAnim: {fileID: 0}
 --- !u!1 &1378881472
 GameObject:
   m_ObjectHideFlags: 0
