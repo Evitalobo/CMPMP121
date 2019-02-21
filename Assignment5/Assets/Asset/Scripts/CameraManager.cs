@@ -16,12 +16,12 @@ public class CameraManager : MonoBehaviour
     {
 
 
-    Camera1.GetComponent<Camera>().enabled = true;
-        Camera2.GetComponent<Camera>().enabled = false;
+    Camera1.GetComponent<Camera>().enabled = false;
+        Camera2.GetComponent<Camera>().enabled = true;
         Camera3.GetComponent<Camera>().enabled = false;
 
 
-        ShowCamera1();
+        ShowCamera2();
     }
 
     // Update is called once per frame

@@ -77,7 +77,7 @@ namespace FiveRabbitsDemo
             {
                 //BurstMode();
                 points++;
-                HappyText.text = ("You have released the lever-the door is open");
+                HappyText.text = ("You have released the lever-the door is open. Find the cheese.");
                 Particles p = other.GetComponent<Particles>();
                 if (p != null)
                 {

@@ -2,7 +2,7 @@
  * 
  * CMPM121-Unity Technologies
  * 
- * FeverDream- Open Main Menu Scene
+ * FeverDream- Open Game application
  * 
  * -----------------
  * 
@@ -17,6 +17,6 @@
  * You must collect the cheese in order to win the game by unlocking the door.
  * 
  * Assets from Unity Store Used:
- * I used the Rabbit CHaracter ANimation off of the Unity Store
+ * I used the Rabbit Character Animation off of the Unity Store
  * 
  */
