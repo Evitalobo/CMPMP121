@@ -60,13 +60,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Asset\Rabbit Character\Demo\Scripts\AnimatorParamatersChange.cs" />
+    <Compile Include="Assets\Asset\Scripts\AnimatorParamatersChange.cs" />
     <Compile Include="Assets\Asset\Scripts\CameraManager.cs" />
     <Compile Include="Assets\Asset\Scripts\Door.cs" />
     <Compile Include="Assets\Asset\Scripts\LookAt.cs" />
     <Compile Include="Assets\Asset\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Asset\Scripts\ParticleEffect.cs" />
     <Compile Include="Assets\Asset\Scripts\Particles.cs" />
+    <Compile Include="Assets\Asset\Scripts\Timer.cs" />
     <Compile Include="Assets\Asset\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\Asset\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\Asset\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
@@ -100,7 +101,6 @@
     <Compile Include="Assets\Asset\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\Asset\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\Asset\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
-    <Compile Include="Assets\README.cs" />
     <None Include="Assets\Asset\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\Asset\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\Asset\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
