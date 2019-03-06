@@ -10,7 +10,8 @@ Shader "Custom/LitLavaLampLandLobo"
 {
     Properties
     {
-    //No Properties
+    _Transparency("Transparency", Range(0.0,0.5)) = 0.25
+    _Color ("Color (RGBA)", Color) = (1, 1, 1, 1)
     }
     SubShader
     {
@@ -42,6 +43,10 @@ Shader "Custom/LitLavaLampLandLobo"
                 float4 pos: SV_POSITION;
                 float2 uv: TEXCOORD0;
             };
+            
+            //Transparent
+            float4 _Transparency;
+            float4 _Color;
             
             //Arithmetic Functions
             float3 fmod289(float3 x) {return x - floor(x * (1.0 /289.0)) * 289.0 ;}
@@ -150,7 +155,7 @@ Shader "Custom/LitLavaLampLandLobo"
             float4 frag(Output i) : SV_TARGET{
                 // Normalized pixel coordinates
                 float2 uv = i.uv/1;
-                float time = _Time.y;
+                float time = _Time.y/20;
                 
                 //Fixed Aspect Ratio
                 float fx = 1/1;
@@ -168,15 +173,16 @@ Shader "Custom/LitLavaLampLandLobo"
                 //RigedMF in RigedMF
                 //RidgeCEPTION
                 float e = ridgedMF(float2(0.5,0.5) *
-                          (ridgedMF(float2(uv.x*0.8,uv.y*0.5-time*0.1)))+n
-                         *ridgedMF(float2(uv.x*1.,uv.y+time*0.002)
-                         *ridgedMF(float2(uv.x*0.5,uv.y*0.5+time*0.02))));
+                          (ridgedMF(float2(uv.x*0.8,uv.y*0.1-time*0.1)))+n
+                        *ridgedMF(float2(uv.x*1.,uv.y+time*0.002)
+                         *ridgedMF(float2(uv.x*0.5,uv.y*0.1+time*0.02))));
           
           
                 //Colors
                  
-                float3 col1 = float3(0.1,0.1,1.4);
-                float3 col2 = float3(1.9,1.8,1.0 - r);
+                float3 col1 = float3(0.996, 0.905, 0.988) * _Color;
+                float3 col2 = float3(0.776, 0.937, 0.964) * _Color;
+             
              
                 //Oscilate color1,2 in patterns
                 float3 fin = lerp(col1,col2,e);

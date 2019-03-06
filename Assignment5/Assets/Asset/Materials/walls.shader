@@ -143,7 +143,7 @@
             float4 frag(Output i) : SV_TARGET{
                 // Normalized pixel coordinates
                 float2 uv = i.uv/1;
-                float time = _Time.y;
+                float time = _Time.y/15;
                 
                 //Fixed Aspect Ratio
                 float fx = 1/1;
@@ -156,7 +156,7 @@
                 float a = atan2(p.y,p.x);
                 
                 //Make a snoise
-                float n = snoise(float2(uv.x*100.,uv.y*100.+_Time.y)*0.002) ;
+                float n = snoise(float2(uv.x*10.,uv.y*10.+_Time.y)*0.002) ;
                 
                 //RigedMF in RigedMF
                 //RidgeCEPTION
@@ -168,8 +168,8 @@
           
                 //Colors
                  
-                float3 col1 = float3(.3,1.1,1.0);
-                float3 col2 = float3(1.9,0.8,1.0 - r);
+                float3 col1 = float3(0.854, 0.964, 0.984);
+                float3 col2 = float3(0.690, 0.878, 0.988);
              
                 //Oscilate color1,2 in patterns
                 float3 fin = lerp(col1,col2,e);

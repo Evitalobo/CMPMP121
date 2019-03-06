@@ -67,6 +67,7 @@
     <Compile Include="Assets\Asset\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Asset\Scripts\ParticleEffect.cs" />
     <Compile Include="Assets\Asset\Scripts\Particles.cs" />
+    <Compile Include="Assets\Asset\Scripts\PostProcessing.cs" />
     <Compile Include="Assets\Asset\Scripts\Timer.cs" />
     <Compile Include="Assets\Asset\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\Asset\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />

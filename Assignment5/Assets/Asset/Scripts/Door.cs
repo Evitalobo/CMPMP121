@@ -6,11 +6,15 @@ public class Door : MonoBehaviour
 {
     public Animator doorAnim;
     private int points;
+    public bool DoorOpen;
+
     // Start is called before the first frame update
     void Start()
     {
         doorAnim = GetComponent<Animator>();
         doorAnim.Play("Close");
+        DoorOpen=false;
+
     }
 
 
@@ -24,6 +28,7 @@ public class Door : MonoBehaviour
             doorAnim.Play("Open");
             doorAnim.SetInteger("index", 1);
             doorAnim.SetTrigger("move");
+            DoorOpen = true;
         }
 
         else
@@ -32,6 +37,8 @@ public class Door : MonoBehaviour
             doorAnim.Play("Close");
             doorAnim.SetInteger("index", 2);
             doorAnim.SetTrigger("move");
+            DoorOpen=false;
+
         }
 
     }
