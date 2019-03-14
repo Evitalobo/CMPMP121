@@ -60,19 +60,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Asset\Scripts\AnimatorParamatersChange.cs" />
-    <Compile Include="Assets\Asset\Scripts\CameraManager.cs" />
-    <Compile Include="Assets\Asset\Scripts\Door.cs" />
-    <Compile Include="Assets\Asset\Scripts\Enemy.cs" />
-    <Compile Include="Assets\Asset\Scripts\EnemyControl.cs" />
-    <Compile Include="Assets\Asset\Scripts\Laser.cs" />
-    <Compile Include="Assets\Asset\Scripts\LookAt.cs" />
-    <Compile Include="Assets\Asset\Scripts\MainMenu.cs" />
-    <Compile Include="Assets\Asset\Scripts\ParticleEffect.cs" />
-    <Compile Include="Assets\Asset\Scripts\Particles.cs" />
-    <Compile Include="Assets\Asset\Scripts\PlayerManager.cs" />
-    <Compile Include="Assets\Asset\Scripts\PostProcessing.cs" />
-    <Compile Include="Assets\Asset\Scripts\Timer.cs" />
     <Compile Include="Assets\Asset\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\Asset\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\Asset\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
@@ -106,6 +93,20 @@
     <Compile Include="Assets\Asset\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\Asset\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\Asset\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+    <Compile Include="Assets\Asset\Tiger\Starfield Skybox\Demo\Script\LookCamera.cs" />
+    <Compile Include="Assets\Scripts\AnimatorParamatersChange.cs" />
+    <Compile Include="Assets\Scripts\CameraManager.cs" />
+    <Compile Include="Assets\Scripts\Door.cs" />
+    <Compile Include="Assets\Scripts\Enemy.cs" />
+    <Compile Include="Assets\Scripts\EnemyControl.cs" />
+    <Compile Include="Assets\Scripts\Laser.cs" />
+    <Compile Include="Assets\Scripts\LookAt.cs" />
+    <Compile Include="Assets\Scripts\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\ParticleEffect.cs" />
+    <Compile Include="Assets\Scripts\Particles.cs" />
+    <Compile Include="Assets\Scripts\PlayerManager.cs" />
+    <Compile Include="Assets\Scripts\PostProcessing.cs" />
+    <Compile Include="Assets\Scripts\Timer.cs" />
     <None Include="Assets\Asset\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\Asset\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\Asset\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
@@ -122,7 +123,7 @@
     <None Include="Assets\Asset\Materials\LitLavaLampLandLobo.shader" />
     <None Include="Assets\Asset\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\Asset\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
-    <None Include="Assets\Asset\Materials\walls.shader" />
+    <None Include="Assets\Asset\Materials\effects.shader" />
     <None Include="Assets\Asset\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\Asset\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
     <None Include="Assets\Asset\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />

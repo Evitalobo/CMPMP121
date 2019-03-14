@@ -155,7 +155,7 @@ Shader "Custom/LitLavaLampLandLobo"
             float4 frag(Output i) : SV_TARGET{
                 // Normalized pixel coordinates
                 float2 uv = i.uv/1;
-                float time = _Time.y/20;
+                float time = _Time.y/10;
                 
                 //Fixed Aspect Ratio
                 float fx = 1/1;
@@ -180,8 +180,8 @@ Shader "Custom/LitLavaLampLandLobo"
           
                 //Colors
                  
-                float3 col1 = float3(0.996, 0.905, 0.988) * _Color;
-                float3 col2 = float3(0.776, 0.937, 0.964) * _Color;
+                float3 col1 = float3(0.807, 0.984, 0.435) * _Color;
+                float3 col2 = float3(0.141, 0.537, 0.313) * _Color;
              
              
                 //Oscilate color1,2 in patterns
