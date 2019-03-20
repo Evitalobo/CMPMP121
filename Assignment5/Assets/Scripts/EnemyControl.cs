@@ -33,7 +33,7 @@ public class EnemyControl : MonoBehaviour
             this.transform.rotation = Quaternion.Slerp(this.transform.rotation, Quaternion.LookRotation(direction), 0.2f);
            // Debug.Log(direction.magnitude);
             if(direction.magnitude > 8){
-                this.transform.Translate(0,0, 0.1f);
+                this.transform.Translate(0,0, 0.2f);
             }
         }
       

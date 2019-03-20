@@ -1,15 +1,16 @@
 ﻿<Properties StartupConfiguration="{6EC92BC9-6A2A-4C10-0F26-977CE9BD1A94}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Asset/Materials/blood.shader">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/killCt.cs">
     <Files>
       <File FileName="../../Documents/:Users:evita:CMPMP121:Assignment5:Assets:Asset:Scripts:SceneManager.cs" Line="1" Column="1" />
-      <File FileName="Assets/Asset/Materials/LitLavaLampLandLobo.shader" Line="184" Column="38" />
-      <File FileName="Assets/Scripts/Enemy.cs" Line="19" Column="26" />
+      <File FileName="Assets/Asset/Materials/LitLavaLampLandLobo.shader" Line="12" Column="6" />
+      <File FileName="Assets/Scripts/Enemy.cs" Line="21" Column="29" />
       <File FileName="Assets/Scripts/EnemyControl.cs" Line="23" Column="76" />
       <File FileName="Assets/Scripts/AnimatorParamatersChange.cs" Line="21" Column="6" />
       <File FileName="Assets/Scripts/Laser.cs" Line="1" Column="1" />
       <File FileName="Assets/Asset/Materials/effects.shader" Line="185" Column="1" />
       <File FileName="Assets/Asset/Materials/blood.shader" Line="1" Column="21" />
+      <File FileName="Assets/Scripts/killCt.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

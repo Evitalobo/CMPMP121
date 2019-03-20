@@ -6,8 +6,7 @@ using UnityEngine.UI;
 public class Enemy : MonoBehaviour
 {
 
-    public Text kills;
-    public float deaths=0;
+    public int kills=0;
     public float health = 50f;
     public ParticleSystem blood;
     public ParticleSystem splatter;
@@ -20,11 +19,7 @@ public class Enemy : MonoBehaviour
             splatter.transform.position = this.transform.position;
             splatter.Play();
             blood.Play();
-            deaths++;
-
-            kills.text = "Kills: " + (deaths).ToString();
-
-      
+            killCt.kills += 1;
             Die();
         }
     }
