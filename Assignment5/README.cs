@@ -1,22 +1,10 @@
-﻿/*----Evita Lobo----
- * 
- * CMPM121-Unity Technologies
- * 
- * FeverDream- Open Game application
- * 
- * -----------------
- * 
- *  Open the Main Menu Scene first and hit the play button
- * 
- * Use the arrow keys to navigate and switch to camera 2 for best gameplay
- * 
- * Use the mouse to look around the room
- * 
- * Find the lever in the maze and once it is activated, the door will be opened. 
- * 
- * You must collect the cheese in order to win the game by unlocking the door.
- * 
- * Assets from Unity Store Used:
- * I used the Rabbit Character Animation off of the Unity Store
- * 
- */
+Evita Lobo				
+Rat Race
+Final Project for CMPM 121
+
+Youtube :https://www.youtube.com/watch?v=-Q5TYfH2K9E&feature=youtu.be
+
+Rat Race: Savanna is a game where the player has 2 minutes to escape a dreamlike maze 
+on the savanna and could potentially kill enemy objects (killing isn’t necessary to win the game).
+They need to find the oasis so they can drink water and avoid death from dehydration. 
+Use WASD to move and spacebar to shoot enemies.
