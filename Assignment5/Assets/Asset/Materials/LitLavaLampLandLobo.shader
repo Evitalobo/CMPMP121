@@ -10,7 +10,7 @@ Shader "Custom/LitLavaLampLandLobo"
 {
     Properties
     {
-    _Transparency("Transparency", Range(0.0,0.5)) = 0.25
+    _Transparency("Transparency", Range(0.0,1)) = .5
     _Color ("Color (RGBA)", Color) = (1, 1, 1, 1)
     }
     SubShader

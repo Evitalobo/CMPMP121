@@ -7,18 +7,22 @@ public class Enemy : MonoBehaviour
 {
 
     public Text kills;
-    public float deaths;
+    public float deaths=0;
     public float health = 50f;
     public ParticleSystem blood;
+    public ParticleSystem splatter;
+   // public GameObject bloodPool;
 
     public void TakeDamage (float amount){
         health -= amount;
         if(health <= 0f){
-            //need to instantiate effects and enemies at some point- hella inefficient code currently
+            blood.transform.position = this.transform.position;
+            splatter.transform.position = this.transform.position;
+            splatter.Play();
             blood.Play();
             deaths++;
 
-            kills.text = (deaths).ToString("Kills: " + deaths);
+            kills.text = "Kills: " + (deaths).ToString();
 
       
             Die();
@@ -29,3 +33,4 @@ public class Enemy : MonoBehaviour
         Destroy(gameObject);
     }
 }
+
